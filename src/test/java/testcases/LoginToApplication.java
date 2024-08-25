@@ -6,15 +6,17 @@ Author Debarghya
 import org.testng.annotations.Test;
 import pages.BaseTest;
 import pages.LoginPage;
+import utility.ConfigDataProvider;
 
-public class LoginTest extends BaseTest {
+public class LoginToApplication extends BaseTest {
+    public ConfigDataProvider config = new ConfigDataProvider();
 
-    //Verify login to Airbnb portal
+    //Login to Airbnb portal
     @Test
     void verifyLogin(){
         LoginPage loginPage = new LoginPage(driver);
-        String username = "hindu.warrior87@gmail.com";
-        String password ="20121987@sb";
+        String username = config.getUser();
+        String password = config.getPass();
 
         loginPage.loginPortal(username,password);
 

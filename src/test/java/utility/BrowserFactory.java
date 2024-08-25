@@ -7,7 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class BrowserFactory {
     public static WebDriver startApplication(WebDriver driver,String browserName,String appUrl){

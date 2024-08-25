@@ -21,10 +21,19 @@ public class ConfigDataProvider {
     }
 
     public String getBrowser(){
+
         return pro.getProperty("browser");
     }
 
     public String getStagingUrl(){
         return pro.getProperty("testurl");
+    }
+
+    public String getUser(){
+        return pro.getProperty("username");
+    }
+
+    public String getPass(){
+        return pro.getProperty("password");
     }
 }

@@ -6,7 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/Debarghya/Automation Projects/AirbnbAutomation/src/test/java/testcases/LoginTest.java">
         <classes>
-    <class name="testcases.LoginTest">
+    <class name="testcases.LoginToApplication">
     </class>
 </classes>
 </test>

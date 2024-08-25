@@ -30,7 +30,7 @@ public class LoginPage {
     WebElement loginBtn;
 
     //Login to the Airbnb portal
-    public void loginPortal(String username,String password){
+    public HomePage loginPortal(String username, String password){
 
         loginEmailLink.click();
         loginEmailBox.sendKeys(username);
@@ -40,6 +40,7 @@ public class LoginPage {
 
         System.out.println("Login to Airbnb portal test is passed");
 
+        return new HomePage(driver);
     }
 
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-13T23:48:09 CEST" name="All Test Suite" finished-at="2024-06-13T23:48:24 CEST" duration-ms="15075">
+    <groups>
+    </groups>
+    <test started-at="2024-06-13T23:48:09 CEST" name="C:/Users/Debarghya/Automation Projects/AirbnbAutomation/src/test/java/testcases/LoginTest.java" finished-at="2024-06-13T23:48:24 CEST" duration-ms="15075">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:testcases.LoginTest@38425407]" started-at="2024-06-13T23:48:09 CEST" name="setUP" finished-at="2024-06-13T23:48:18 CEST" duration-ms="8591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="verifyLogin()[pri:0, instance:testcases.LoginTest@38425407]" started-at="2024-06-13T23:48:18 CEST" name="verifyLogin" finished-at="2024-06-13T23:48:23 CEST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@38425407]" started-at="2024-06-13T23:48:23 CEST" name="tearDown" finished-at="2024-06-13T23:48:24 CEST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- C:/Users/Debarghya/Automation Projects/AirbnbAutomation/src/test/java/testcases/LoginTest.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
