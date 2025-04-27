@@ -24,6 +24,7 @@ public class HomePageMenu extends BaseTest {
     @Test
     void verifyHomepageMenu()  {
 
+        // Verify the menus of Home page
         homepage.verifyMenus();
 
     }
